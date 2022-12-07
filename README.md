@@ -1,2 +1,2 @@
-# gulp-html-include
-Config for enabling file include for building HTML template
+# aneka-tireshop
+Template for aneka ban tire shop

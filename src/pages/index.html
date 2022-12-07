@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('../partials/head.html', {"pageTitle": "Selamat Datang di Aneka Ban Batam"})
+
+<body>
+	<header>
+		@@include('../partials/navbar.html')
+	</header>
+	<main>
+		@@include('../partials/banner.html')
+		<section id="our-service">
+			@@include('../partials/homepage/services.html')
+		</section>
+		<section id="our-vision">
+			@@include('../partials/homepage/vision.html')
+		</section>
+		<section id="our-products" class="bg-light" style="padding-bottom: 10em;">
+			@@include('../partials/homepage/products.html')
+		</section>
+		<section id="our-partner">
+			@@include('../partials/homepage/partners.html')
+		</section>
+	</main>
+	@@include('../partials/footer.html')
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+	<script src=@@webRoot/assets/libs/bootstrap@5.2/js/bootstrap.bundle.min.js></script>
+	<script src=@@webRoot/assets/js/main.js></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"title": "Wheel Alignment",
+		"description": "Wheel alignment is part of a standard automobile maintenance that consists of adjusting the angles of wheels to the car manufacturer specifications. The purpose of these adjustments is to reduce tire wear and to ensure that vehicle travelling direction is straight (without “pulling” to one side)"
+	},
+	{
+		"id": 2,
+		"title": "Balancing",
+		"description": "Tire Balance, also called tire unbalance or tire imbalance, describes the distribution of mass within an automobile tire or the entire wheel (including the rim) on which it is mounted."
+	},
+	{
+		"id": 3,
+		"title": "Car Storing",
+		"description": "Driving can lead to a lot of unexpected surprises. Although a flat tire seems to happen at the most inconvenient time, don’t let it ruin your day. We are just one call away"
+	},
+	{
+		"id": 4,
+		"title": "Truck Storing",
+		"description": "Having your truck tire punctured especially during a delivery can be exhausting. Manually trying to open the bolt and jack up the truck might take a lot of time and effort for most people. Therefore, we are dedicated to help our customer by providing a portable air compressor and storing vehicle to smoothen the recovering process"
+	},
+	{
+		"id": 5,
+		"title": "Tire Repair",
+		"description": "There are three common ways to repair a punctured tire: A plug-only, a patchonly repair or a combination repair. The patch-only and combination repairs require the technician to demount the tire from the rim to examine the inside of the tire for damage and repair it from the inside. Normally a patch-only repair is the safest way to do it as the damage created is minimal."
+	}
+]

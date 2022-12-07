@@ -1,0 +1,23 @@
+<div class="container">
+	<div class="text-center">
+		<h2 class="fw-bold">Our Service</h2>
+		<p><span class="fw-bold">Great Service</span> Requires The Right People and The Right Service Tools. We Provide Both For Your Service Needs.</p>
+	</div>
+	<div class="row text-center justify-content-center mt-5">
+		@@for ( let i = 0; i < services.length; i++) { 
+			<div class="col-12 col-md-4 mb-3">
+			<div class="card card-service border-0">
+				<div class="card-body">
+					<div class="icon-wrapper mb-3 mx-auto"></div>
+					<h3>
+						`+services[i].title+`
+					</h3>
+					<p class="text-center">
+						`+services[i].description+`
+					</p>
+				</div>
+			</div>
+		</div>
+	}
+	</div>
+</div>

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+:root {
+  --primary-color: #31479D;
+  --second-color: #E8AA42;
+  --primary-soft: #f4fbff; }
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  min-height: calc(100vh - 64px);
+  overflow: auto; }
+
+main {
+  padding-top: 70px; }
+
+footer {
+  min-height: 400px; }
+
+p {
+  font-family: 'Rubik', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: var(--primary-color); }
+  a:hover {
+    transition: 0.3s ease;
+    color: var(--bs-yellow); }
+
+.list-init li {
+  margin: 1em 0; }
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3em; }
+  .social-icons a {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    font-size: 24px; }
+    .social-icons a:hover {
+      box-shadow: rgba(255, 217, 0, 0.774) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
+
+.btn-cta {
+  background-color: var(--bs-yellow);
+  color: var(--primary-color); }
+  .btn-cta:hover {
+    color: var(--bs-yellow) !important;
+    border: 1px solid var(--bs-yellow) !important; }
+
+.btn-cta-2 {
+  background-color: var(--primary-color);
+  color: var(--bs-yellow); }
+  .btn-cta-2:hover {
+    background-color: #1e3077 !important;
+    color: var(--bs-yellow) !important;
+    border: 1px solid var(--bs-yellow) !important; }
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: #d3d3d3;
+  border-radius: 1em; }
+
+.logo {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0 5px;
+  border-radius: 8px; }
+  .logo:hover {
+    color: var(--primary-color); }
+
+.navbar {
+  border-bottom: 1px solid var(--primary-color); }
+  .navbar .offcanvas .nav-item {
+    margin-right: 1.6em; }
+
+.main-banner {
+  position: relative; }
+  .main-banner .banner-row {
+    background-color: #31479D;
+    border-radius: 1em;
+    overflow: hidden; }
+  .main-banner .left-side {
+    overflow: hidden; }
+    .main-banner .left-side .img-wrapper-banner {
+      max-width: 500px;
+      max-height: 500px; }
+      .main-banner .left-side .img-wrapper-banner img {
+        width: 100%; }
+  .main-banner .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 12px; }
+    .main-banner .right-side h1 {
+      color: var(--bs-yellow);
+      font-weight: 700; }
+    .main-banner .right-side p {
+      color: var(--bs-yellow); }
+    @media screen and (min-width: 992px) {
+      .main-banner .right-side {
+        padding: 0 4rem; } }
+  .main-banner .floating-card {
+    display: flex;
+    position: absolute;
+    bottom: -7%;
+    left: 0;
+    width: 100%;
+    padding: 0 2em; }
+    .main-banner .floating-card .card {
+      min-width: 300px;
+      max-width: 425px; }
+
+.vision {
+  background-color: var(--bs-yellow);
+  border-radius: 2.1em; }
+  .vision .image-wrapper {
+    position: relative;
+    background-color: var(--primary-color);
+    border-radius: 2.1em;
+    overflow: hidden; }
+    .vision .image-wrapper img {
+      width: 100%; }
+    .vision .image-wrapper .sub-vision {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      padding: 1em;
+      text-align: end;
+      color: var(--bs-yellow); }
+      .vision .image-wrapper .sub-vision h3 {
+        animation-name: focus-in-expand;
+        animation-duration: 3s; }
+
+.products .card {
+  border: none;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; }
+
+.products .image-wrapper {
+  height: 200px;
+  border-radius: 1em;
+  overflow: hidden; }
+  .products .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+#our-service,
+#our-vision,
+#our-products,
+#our-partner {
+  padding: 7em 0 1em; }

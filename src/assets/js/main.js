@@ -42,9 +42,24 @@ document.addEventListener('DOMContentLoaded', function () {
 		type: 'loop',
 		drag: 'free',
 		focus: 'center',
-		height: '5rem',
+		height: '10rem',
 		perPage: 3,
+		pagination: false,
 		pauseOnHover: true,
+		breakpoints: {
+			1200: {
+				perPage: 3
+			},
+			1024: {
+				perPage: 2,
+			},
+			767: {
+				perPage: 2,
+			},
+			640: {
+				perPage: 1,
+			},
+		},
 		autoScroll: {
 			speed: 1,
 		},
